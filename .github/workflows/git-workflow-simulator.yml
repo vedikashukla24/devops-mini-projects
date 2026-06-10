@@ -26,4 +26,4 @@ jobs:
         run: python --version
 
       - name: Run Application
-        run: python MiniProject-02-Git-Workflow-Simulator/app.py
+        run: python MiniProject-2-Git-Workflow-Simulator/app.py
