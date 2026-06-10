@@ -1,5 +1,5 @@
 def dashboard():
-    return "Dashboard Module Added"
+    return "Dashboard Module A"
 
 
 def profile():
