@@ -28,7 +28,7 @@ jobs:
         run: |
           docker build \
           -t ${{ secrets.DOCKER_USERNAME }}/artifact-versioning:${{ env.VERSION }} \
-          ./MiniProject-06-Artifact-Versioning
+          ./MiniProject-05-Artifact-Versioning
 
       - name: Push Docker Image
         run: |
