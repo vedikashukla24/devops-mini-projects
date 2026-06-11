@@ -1,5 +1,8 @@
 name: Artifact Versioning Pipeline
 
+permissions:
+  contents: write
+  
 on:
   push:
     tags:
