@@ -42,3 +42,15 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           generate_release_notes: true
+
+      - name: Create Release Metadata
+        run: |
+          echo "Version: ${{ env.VERSION }}" > release-info.txt
+          echo "Build Date: $(date)" >> release-info.txt
+          echo "Project: Artifact Versioning Pipeline" >> release-info.txt
+
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-info
+          path: release-info.txt    
