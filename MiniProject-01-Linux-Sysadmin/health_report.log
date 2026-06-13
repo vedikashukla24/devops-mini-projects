@@ -1,0 +1,132 @@
+=================================
+SERVER HEALTH REPORT
+Tue Jun  9 00:22:31 IST 2026
+
+DISK USAGE
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    12Gi    96Gi    11%    459k  1.0G    0%   /
+devfs            198Ki   198Ki     0Bi   100%     684     0  100%   /dev
+/dev/disk3s6     228Gi    20Ki    96Gi     1%       0  1.0G    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   8.4Gi    96Gi     9%    1.5k  1.0G    0%   /System/Volumes/Preboot
+/dev/disk3s4     228Gi   3.5Mi    96Gi     1%      63  1.0G    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   483Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   5.6Mi   483Mi     2%      31  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   932Ki   483Mi     1%      85  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     228Gi   111Gi    96Gi    54%    979k  1.0G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+
+MEMORY USAGE
+PhysMem: 7522M used (1569M wired, 2367M compressor), 89M unused.
+
+RUNNING PROCESSES
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+root              1929  18.0  0.4 435556272  34496   ??  Ss    4:22AM   0:37.98 /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Contents/MacOS/XprotectService
+_windowserver      167  10.1  1.0 436786320  82160   ??  Ss   Sun01AM  24:51.19 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+vedikashukla      1846   2.5  1.4 441351120 118064   ??  S    Sun11PM   2:22.15 /System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app/Contents/MacOS/Safari
+_trustd            173   2.2  0.1 435344816  11648   ??  Ss   Sun01AM   0:17.03 /usr/libexec/trustd
+_driverkit         319   2.1  0.5 435306784  40224   ??  Ss   Sun01AM   3:44.75 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN com.apple.bcmwlan 0x100000b8c com.apple.DriverKit-AppleBCMWLAN
+vedikashukla      2791   2.0  0.0 435299568   1952 s000  S+   12:22AM   0:00.01 /bin/bash ./health_check.sh
+vedikashukla      2354   1.8  4.5 508874336 380304   ??  Ss   10:18PM   6:24.19 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+vedikashukla      2761   1.5  1.4 435853504 121600   ??  S    12:17AM   0:03.01 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+vedikashukla       562   1.5  0.2 435560544  14112   ??  S    Sun01AM   0:34.06 /usr/libexec/spotlightknowledged.updater -u
+
+=================================
+=================================
+SERVER HEALTH REPORT
+Tue Jun  9 00:23:06 IST 2026
+
+DISK USAGE
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    12Gi    96Gi    11%    459k  1.0G    0%   /
+devfs            198Ki   198Ki     0Bi   100%     684     0  100%   /dev
+/dev/disk3s6     228Gi    20Ki    96Gi     1%       0  1.0G    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   8.4Gi    96Gi     9%    1.5k  1.0G    0%   /System/Volumes/Preboot
+/dev/disk3s4     228Gi   3.5Mi    96Gi     1%      63  1.0G    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   483Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   5.6Mi   483Mi     2%      31  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   932Ki   483Mi     1%      85  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     228Gi   111Gi    96Gi    54%    979k  1.0G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+
+MEMORY USAGE
+PhysMem: 7464M used (1480M wired, 2403M compressor), 136M unused.
+
+RUNNING PROCESSES
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+_windowserver      167   6.2  1.0 436785744  80960   ??  Ss   Sun01AM  24:54.99 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+vedikashukla       562   2.6  0.2 435560544  14240   ??  S    Sun01AM   0:34.09 /usr/libexec/spotlightknowledged.updater -u
+vedikashukla      2761   2.6  1.5 435853520 121840   ??  S    12:17AM   0:03.53 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+vedikashukla      2802   2.1  0.0 435299920   1968 s000  S+   12:23AM   0:00.02 /bin/bash ./health_check.sh
+vedikashukla      2312   1.5  2.1 436381664 176016   ??  S    10:17PM   1:26.97 /Applications/WhatsApp.app/Contents/MacOS/WhatsApp
+vedikashukla      1846   1.1  1.4 441351120 117584   ??  S    Sun11PM   2:23.14 /System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app/Contents/MacOS/Safari
+vedikashukla      2354   1.1  4.5 508874336 378336   ??  Ss   10:18PM   6:26.86 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+root               206   0.9  0.3 435370400  21760   ??  Ss   Sun01AM   2:47.76 /usr/libexec/airportd
+_driverkit         319   0.9  0.5 435306784  40176   ??  Ss   Sun01AM   3:45.12 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN com.apple.bcmwlan 0x100000b8c com.apple.DriverKit-AppleBCMWLAN
+
+=================================
+=================================
+SERVER HEALTH REPORT
+Tue Jun  9 01:17:38 IST 2026
+
+DISK USAGE
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    12Gi    96Gi    11%    459k  1.0G    0%   /
+devfs            198Ki   198Ki     0Bi   100%     684     0  100%   /dev
+/dev/disk3s6     228Gi    20Ki    96Gi     1%       0  1.0G    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   8.4Gi    96Gi     9%    1.5k  1.0G    0%   /System/Volumes/Preboot
+/dev/disk3s4     228Gi   3.5Mi    96Gi     1%      63  1.0G    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   483Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   5.6Mi   483Mi     2%      31  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   932Ki   483Mi     1%      85  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     228Gi   111Gi    96Gi    54%    979k  1.0G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+
+MEMORY USAGE
+PhysMem: 7439M used (1439M wired, 2550M compressor), 168M unused.
+
+RUNNING PROCESSES
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+_windowserver      167   3.7  1.0 436825264  80800   ??  Ss   Sun01AM  28:17.21 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+vedikashukla      2940   2.7  0.0 435300320   1968 s000  S+    1:17AM   0:00.02 /bin/bash ./health_check.sh
+vedikashukla       562   2.6  0.2 435560544  13760   ??  S    Sun01AM   0:37.13 /usr/libexec/spotlightknowledged.updater -u
+vedikashukla      2761   2.2  1.0 435856560  81504   ??  S    12:17AM   0:08.29 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+vedikashukla      1846   0.9  1.4 441370640 117968   ??  S    Sun11PM   3:31.72 /System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app/Contents/MacOS/Safari
+_driverkit         319   0.8  0.5 435306784  41200   ??  Ss   Sun01AM   4:05.92 /System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN com.apple.bcmwlan 0x100000b8c com.apple.DriverKit-AppleBCMWLAN
+vedikashukla      2312   0.8  2.0 436379136 164096   ??  S    10:17PM   1:56.85 /Applications/WhatsApp.app/Contents/MacOS/WhatsApp
+vedikashukla       451   0.7  0.3 435374736  22736   ??  S    Sun01AM   0:16.46 /System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager
+root                95   0.7  0.2 435490464  16480   ??  Ss   Sun01AM   1:17.31 /usr/libexec/logd
+
+=================================
+=================================
+SERVER HEALTH REPORT
+Sat Jun 13 13:41:13 IST 2026
+
+DISK USAGE
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    12Gi    91Gi    12%    459k  956M    0%   /
+devfs            198Ki   198Ki     0Bi   100%     684     0  100%   /dev
+/dev/disk3s6     228Gi   2.0Gi    91Gi     3%       2  956M    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   8.4Gi    91Gi     9%    1.5k  956M    0%   /System/Volumes/Preboot
+/dev/disk3s4     228Gi   3.5Mi    91Gi     1%      64  956M    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   483Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   5.6Mi   483Mi     2%      31  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   932Ki   483Mi     1%      85  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     228Gi   114Gi    91Gi    56%    1.1M  956M    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+
+MEMORY USAGE
+PhysMem: 7522M used (1597M wired, 1295M compressor), 88M unused.
+
+RUNNING PROCESSES
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+root               136  12.4  0.2 435347728  13072   ??  Ss   Sun01AM   1:02.11 /usr/libexec/opendirectoryd
+_windowserver      167   6.7  1.1 436695776  88496   ??  Ss   Sun01AM  90:37.36 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+vedikashukla      4855   4.6  9.9 509657088 830832   ??  Ss   Thu12AM   8:28.60 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+vedikashukla      6377   4.5  0.0 435300144   1968 s000  S+    1:41PM   0:00.02 /bin/bash ./health_check.sh
+vedikashukla      6359   2.9  1.5 435836288 124816   ??  S     1:38PM   0:02.41 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+root               168   1.6  0.1 435353424  12400   ??  Ss   Sun01AM   0:10.27 /System/Library/PrivateFrameworks/TCC.framework/Support/tccd system
+root               135   0.9  0.2 435391312  13856   ??  Ss   Sun01AM   0:02.60 /usr/libexec/xprotectd
+root               273   0.6  0.2 435352992  12656   ??  Ss   Sun01AM   0:36.73 /usr/libexec/syspolicyd
+vedikashukla       451   0.6  0.3 435375216  21184   ??  S    Sun01AM   1:01.84 /System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager
+
+=================================
